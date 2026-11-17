@@ -1,0 +1,10 @@
+name: Task
+description: Maintenance, infra or a small to-do
+labels: ["type: chore"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+    validations:
+      required: true
